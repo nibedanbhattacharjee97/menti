@@ -39,7 +39,7 @@ if menu == "Upload Questions":
 
         # QR Code to Vote
         st.subheader("📱 Scan QR to Vote")
-        qr_url = "http://localhost:8501"  # Change to actual deployed URL if needed
+        qr_url = "https://mentimeter.streamlit.app/#live-voting-app-mentimeter-clone"  # Change to actual deployed URL if needed
         qr_img = generate_qr_code(qr_url)
         st.image(qr_img, caption="Scan this QR Code to Vote", width=250)
 
